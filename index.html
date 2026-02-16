@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-912D4ZR2HV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-912D4ZR2HV');
+</script>
+
+<!-- Robust Anti-Reload (Blocking Live Server) -->
+<script>
+(function() {
+    const block = (m) => console.log("Blocking reload attempt: " + m);
+    try {
+        // Simple override
+        window.location.reload = function() { block("location.reload"); };
+        window.history.go = function() { block("history.go"); };
+        window.location.replace = function() { block("location.replace"); };
+        
+        // Prevent meta refresh
+        const preventRefresh = () => {
+            const refresh = document.querySelector('meta[http-equiv="refresh"]');
+            if (refresh) {
+                console.log("Blocking meta refresh");
+                refresh.remove();
+            }
+        };
+        setInterval(preventRefresh, 1000);
+
+        // Block beforeunload popup if it exists
+        window.addEventListener('beforeunload', (event) => {
+            event.stopImmediatePropagation();
+        }, true);
+
+    } catch(e) { console.error("Reload fix error:", e); }
+})();
+</script>
+
+    
+    
+
+    <title>Holeio - Play Online for Free</title>
+    <meta name="description" content="Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!"> 
+    <meta name="author" content="HSINI">
+    <link rel="shortcut icon" href="../../images/ico.ico" type="image/x-icon">
+    <script src="../../storage/js/cloak.js"></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+
+<style>
+  #container,#logo{top:50%;overflow:hidden}#container,#footer,#logo{left:50%;position:absolute}#logo,div.button{text-align:center}*{margin:0;padding:0}body{background:#232323}#container{transform:translate(-50%,-50%);background:#000416}#logo{display:block;min-width: 100%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}#footer{width:100%;height:40px;bottom:0;transform:translate(-50%,0);background:linear-gradient(to bottom,#ccc 0,#fff 100%)}div.fullscreen,div.moregames{margin:1px 1px 0 0;height:38px;line-height:38px}div.button{background:#222c36;padding:0 8px;border-radius:3px;color:#fff;font-weight:bold;text-decoration:none;cursor:pointer}div.moregames{padding:0 5px;float:left;color:#333;text-align:left;font-size:15px;position:relative;z-index:10}div.fullscreen{position:absolute;right:5px;display:inline-flex;font-weight:bold}div.fullscreen img{padding-left:5px}#gamedistads{position:fixed;top:0;right:0;bottom:40px;left:0;z-index:999;display:none}
+    </style>
+
+
+    <script src="Build/UnityLoader.js"></script>
+    <script type="text/javascript"> 
+       function UnityProgress(gameInstance, progress) {
+      if (!gameInstance.Module) {
+       return;
+      } else if (progress === "complete") {
+       document.getElementById("logo").style.display = "none";
+       
+      return;
+      } else if (progress == 1) {
+      document.getElementById("loadinginfo").innerHTML = "PROCESSING...";
+      } else if (progress > 0) {
+      document.getElementById("loadinginfo").innerHTML = "Loading: " + Math.round(progress * 100) + "%";
+      
+
+       var prog = progress * 100;
+    if (prog == 90) {
+      document.getElementById("loadinginfo").innerHTML = "PROCESSING...";
+      }
+
+
+      }
+    }
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/BuildWeb.json", {
+      onProgress: UnityProgress,
+      Module: {
+        onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") }
+      }
+    });
+      
+      function FitScreen(){
+		var w=400;
+       var h=650;
+       var availWidth=window.innerWidth;
+       var availHeight=window.innerHeight-10;
+     
+       var canvas = document.getElementById("#canvas");
+       if(availWidth/availHeight>w/h){
+         height = availHeight;
+         width = (height*w/h);
+      }else{
+         width = availWidth;
+         height = width*h/w;
+      }
+      canvas.width = width;
+      canvas.height = height;
+       document.getElementById("container").style.width=width + "px";
+       document.getElementById("container").style.height=(height + 10) + "px";
+       document.getElementById("gameContainer").style.width=width + "px";
+       document.getElementById("gameContainer").style.height=height + "px";
+    
+       if(width/height>4/3){
+           document.getElementById("logo").style.height=Math.round(height*0.6) + "px";  
+           document.getElementById("logo").style.width=Math.round(height*0.7*4/3) + "px";
+       }else{
+           document.getElementById("logo").style.width=Math.round(width*0.8) + "px";
+           document.getElementById("logo").style.height=Math.round(width*0.8*3/4) + "px";
+       }
+     
+    }
+      </script>
+	  
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <meta property="og:title" content="Holeio - Play Online for Free">
+    <meta property="og:description" content="Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/holeio/">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": [
+    "VideoGame",
+    "SoftwareApplication"
+  ],
+  "name": "Holeio",
+  "description": "Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!",
+  "url": "https://unlockedgames.io/holeio/",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "genre": "Arcade",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}</script>
+
+    <meta property="og:title" content="Holeio - Play Online for Free">
+    <meta property="og:description" content="Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/holeio/">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": [
+    "VideoGame",
+    "SoftwareApplication"
+  ],
+  "name": "Holeio",
+  "description": "Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!",
+  "url": "https://unlockedgames.io/holeio/",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "genre": "Arcade",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}</script>
+
+    <meta property="og:title" content="Holeio - Play Online for Free">
+    <meta property="og:description" content="Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/holeio/">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": [
+    "VideoGame",
+    "SoftwareApplication"
+  ],
+  "name": "Holeio",
+  "description": "Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!",
+  "url": "https://unlockedgames.io/holeio/",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "genre": "Arcade",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}</script>
+
+    <meta property="og:title" content="Holeio - Play Online for Free">
+    <meta property="og:description" content="Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/holeio/">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": [
+    "VideoGame",
+    "SoftwareApplication"
+  ],
+  "name": "Holeio",
+  "description": "Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!",
+  "url": "https://unlockedgames.io/holeio/",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "genre": "Arcade",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "author": {
+    "@type": "Person",
+    "name": "HSINI"
+  }
+}</script>
+
+    <meta property="og:title" content="Holeio - Play Online for Free">
+    <meta property="og:description" content="Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/holeio/">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": [
+    "VideoGame",
+    "SoftwareApplication"
+  ],
+  "name": "Holeio",
+  "description": "Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!",
+  "url": "https://unlockedgames.io/holeio/",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "genre": "Arcade",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "author": {
+    "@type": "Person",
+    "name": "HSINI"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "hsinidev"
+  }
+}</script>
+</head>
+<body onFocus="FitScreen();" onLoad="FitScreen();" onResize="FitScreen();">
+
+    <div id="container" style="width: 500px; height: 750px">
+    <div id="gameContainer" style="width: 500px; height: 750px"></div>
+        <div id="footer" style="display:none">
+                <div class="moregames" onClick='CreateLinksInGame()'>
+                    <div class="button">More Games</div>
+                </div>
+                 <div id="sitelogo" onClick='CreateLinksInGame()' style="position:absolute;bottom:5px;left:50%;transform: translate(-50%,0);display:none;cursor:pointer;">
+                
+            </div>
+                <div style="display:none" class="fullscreen" onClick='CreateLinksInGame()'>Hole IO</div>
+            </div>
+            
+            <div id="logo" onClick='CreateLinksInGame()'>
+                <script type="text/javascript" style="display:none">
+//<![CDATA[
+window.__mirage2 = {petok:"589a79dc93a5bb8837db25e39b8fb5e00bb61bab-1634499826-31536000"};
+//]]>
+</script>
+<script type="text/javascript" src="patch/cdn/mirage2.min.js"></script>
+
+<img data-cfsrc="feature800x470.png" width="100%" height="100%" style="display:none;visibility:hidden;"><noscript><img src="feature800x470.png" width="100%" height="100%"></noscript>
+                
+                <div id="loadinginfo" style="position:absolute;bottom:10px;left:50%;width:50%;max-height:10px;transform: translate(-50%, 0%);color:red;font-size:18px;">
+                    Loading...
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <script type='text/javascript'>
+  function CreateLinksInGame(){
+    window.open("http://selenite.cc");
+    }
+</script>
+
+<!-- SEO CONTENT (Hidden) -->
+<div class="seo-generated-content" style="display:none; visibility:hidden;">
+<h2>Holeio: A Comprehensive Guide to Exploring the World of Surfing</h2>
+
+<h3>What is Holeio?</h3>
+Holeio is a browser-based surfing game that allows players to explore an open-world environment, ride waves, and battle against other surfers. Developed by a talented indie team, Holeio has gained a dedicated community of players worldwide.
+
+<h3>How to Play</h3>
+To play Holeio, simply navigate to the website and click on the "Start" button to begin your journey. The game is divided into different modes, including:
+• Free Surf: Ride waves and explore the ocean without any objectives or restrictions.
+• Tournament Mode: Compete against other players in a series of matches to earn rewards and climb the leaderboards.
+• Story Mode: Embark on a narrative-driven adventure with a variety of characters and quests.
+
+<h3>Tips and Tricks for Success</h3>
+To improve your chances of success in Holeio, here are some tips and tricks:
+• Master the art of surfing: Develop your skills and learn to navigate different wave types, including beginner-friendly waves and more challenging ones.
+• Know your opponents: Observe other players' strategies and adapt them to your own playing style.
+• Upgrade your gear: Collect new boards, wetsuits, and other equipment to improve your performance and stay competitive.
+• Stay hydrated and energized: Keep an eye on your energy levels and take breaks when needed to avoid fatigue.
+
+<h3>Why You Should Play Holeio</h3>
+Holeio offers a unique blend of exploration, strategy, and competition that sets it apart from other browser games. With its vast open world, diverse characters, and engaging gameplay, you'll find yourself hooked on this surfing adventure. Here are some reasons to give Holeio a try:
+• Immersive atmosphere: The game's art style is vibrant and colorful, with stunning visuals that transport you to an underwater world.
+• addictive gameplay: The combination of exploration, surfing, and combat keeps you engaged for hours on end.
+• Social features: Join online communities and share tips with other players to enhance your experience.
+
+<h3>Get Ready to Ride the Waves</h3>
+To access Holeio, simply click on the game link below. With its engaging gameplay, rich atmosphere, and addictive mechanics, this browser game is sure to capture your attention and keep you coming back for more.
+</div>
+<script>
+    // Silently block specific Live Server reload triggers if possible
+    
+</script>
+</body>
+</html>
