@@ -1,17 +1,21 @@
 <div align="center">
-# 🚀 Holeio
-### *High-Performance Interactive Web Experience & Canvas Engine*
 
-<p align="center">
-  [![Architect](https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white)](https://hsini.dev)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hsini.dev)
-  [![Framework](https://img.shields.io/badge/Framework-WebGL%20/%20HTML5%20Canvas-6366f1?style=for-the-badge)](https://github.com/hsinidev)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Holeio&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%" style="max-width: 100%; border-radius: 12px; margin-bottom: 20px;" alt="Holeio Header Banner" />
+
+  <h1>🚀 Holeio</h1>
+  <p><em>High-Performance Interactive Web Experience & Canvas Engine</em></p>
+
+  <p align="center">
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white" alt="Architect: Hsini Mohamed" /></a>
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio: hsini.dev" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Framework-WebGL%20/%20HTML5%20Canvas-6366f1?style=for-the-badge" alt="Framework: WebGL / HTML5 Canvas" /></a>
+    <a href="https://github.com/hsinidev/holeio"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT" /></a>
+  </p>
 
 </div>
 
 ---
+
 ## 🌟 Executive Overview
 
 **Holeio** delivers a fast, responsive, and cross-platform browser experience built with **Universal** and hardware-accelerated canvas rendering.
@@ -24,6 +28,7 @@
 - **Local Storage State**: Automatic session persistence and state restoration.
 
 ---
+
 ## 🏗️ Architecture & Technology Stack
 
 - **Primary Language**: `Universal`
@@ -31,69 +36,6 @@
 - **Design Pattern**: Modular Clean Architecture / Domain-Driven Design
 - **License**: MIT Open Source Attribution
 
-## 📖 Deep-Dive Technical Documentation
-
-# Holeio - Play Online for Free
-
-## Overview
-Play Holeio online for free. Unblocked and available on all devices. Experience the best Holeio gameplay now!
-
-### Game Details & Guide
-Holeio: A Comprehensive Guide to Exploring the World of Surfing
-
-
-
-What is Holeio?
-
-Holeio is a browser-based surfing game that allows players to explore an open-world environment, ride waves, and battle against other surfers. Developed by a talented indie team, Holeio has gained a dedicated community of players worldwide.
-
-
-How to Play
-
-To play Holeio, simply navigate to the website and click on the "Start" button to begin your journey. The game is divided into different modes, including:
-• Free Surf: Ride waves and explore the ocean without any objectives or restrictions.
-• Tournament Mode: Compete against other players in a series of matches to earn rewards and climb the leaderboards.
-• Story Mode: Embark on a narrative-driven adventure with a variety of characters and quests.
-
-
-Tips and Tricks for Success
-
-To improve your chances of success in Holeio, here are some tips and tricks:
-• Master the art of surfing: Develop your skills and learn to navigate different wave types, including beginner-friendly waves and more challenging ones.
-• Know your opponents: Observe other players' strategies and adapt them to your own playing style.
-• Upgrade your gear: Collect new boards, wetsuits, and other equipment to improve your performance and stay competitive.
-• Stay hydrated and energized: Keep an eye on your energy levels and take breaks when needed to avoid fatigue.
-
-
-Why You Should Play Holeio
-
-Holeio offers a unique blend of exploration, strategy, and competition that sets it apart from other browser games. With its vast open world, diverse characters, and engaging gameplay, you'll find yourself hooked on this surfing adventure. Here are some reasons to give Holeio a try:
-• Immersive atmosphere: The game's art style is vibrant and colorful, with stunning visuals that transport you to an underwater world.
-• addictive gameplay: The combination of exploration, surfing, and combat keeps you engaged for hours on end.
-• Social features: Join online communities and share tips with other players to enhance your experience.
-
-
-Get Ready to Ride the Waves
-
-To access Holeio, simply click on the game link below. With its engaging gameplay, rich atmosphere, and addictive mechanics, this browser game is sure to capture your attention and keep you coming back for more.
-
-## Technical Specifications
-- **Technology**: Unity WebGL
-- **Compatible Browsers**: Chrome, Firefox, Safari, Edge
-- **Architecture**: Client-side execution (HTML5/JavaScript)
-
-## About the Project
-This game is part of a curated collection of high-performance web games maintained by **HSINI MOHAMED**. The project focuses on providing unblocked, fast-loading, and responsive gaming experiences to users worldwide.
-
-**HSINI MOHAMED**
-- **Email**: [hsini.web@gmail.com](mailto:hsini.web@gmail.com)
-- **Website**: [https://unlockedgames.io](https://unlockedgames.io)
-- **Portfolio**: [Explore more games](https://unlockedgames.io)
-
----
-© 2024 **HSINI MOHAMED**. All games are hosted and maintained for educational and entertainment purposes.
-
----
 ## 🚀 Quick Start & Installation
 
 ### 1. Clone the Repository
